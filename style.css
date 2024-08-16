@@ -1,0 +1,27 @@
+body{
+    background-color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+form{
+    background-color: antiquewhite;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgb(71, 59, 46);
+}
+.form-control{
+    display: block;
+    margin-bottom: 10px;
+}
+.form-control input,
+.form-control select,
+.form-control textarea,{
+    border: 1px solid pink;
+    border-radius: 5px;
+    font-family: inherit;
+    padding: 15px;
+    display: block;
+    width: 90%;
+}
